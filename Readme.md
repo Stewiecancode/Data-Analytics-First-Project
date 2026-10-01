@@ -1,0 +1,1 @@
+This csv contains 649 real student records and 33 columns for your first education project. It comes from two Portuguese secondary schools, collected through school reports and questionnaires. Attribution: Paulo Cortez, UCI Student Performance dataset, CC BY 4.0

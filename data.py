@@ -19,3 +19,13 @@ plt.xlabel("Number of absences")
 plt.ylabel("Final grade (out of 20)")
 plt.tight_layout()
 plt.show()
+
+average_grades = df.groupby("studytime")["G3"].mean()
+print(average_grades)
+
+average_grades.plot.bar()
+plt.title("Average final grade by weekly study time")
+plt.xlabel("Study-time category")
+plt.ylabel("Average grade (out of 20)")
+plt.tight_layout()
+plt.show()
